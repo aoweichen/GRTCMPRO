@@ -36,7 +36,7 @@ Mail:
   Driver: 'smtp'
   Host: 'smtp.qq.com'
   Name: '2557780575@qq.com'
-  Password: 'shbsxikrhbmtdjhh'
+  Password: ''
   Port: 465
   Encryption: 'ssl'
   FromName: 'Im-Services'
