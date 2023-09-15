@@ -1,5 +1,6 @@
 # GRTCMPRO
 v1.0版本地址 https://github.com/aoweichen/GoRealTimeChatWithVUE.git
+
 v1.1版本更新了整体服务端的构架的构架。  
 1. 添加代理服务端，实现了登录、注册、发送验证码以及鉴权功能，其他的核心服务将会先鉴权后转发到相关服务集群。
 2. 添加GRPC微服务集群系统，使用consul作为GRPC服务注册和服务发现，实现登录、注册、发送验证码以及鉴权的功能。
