@@ -1,0 +1,8 @@
+{"level":"INFO","time":"2023-09-14 14:05:31","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-14 14:05:31","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-14 14:05:31","caller":"HighPerformanceIMServerAuth/main.go:40","message":"Registered service 'AuthGRPCService' with Consul"}
+{"level":"INFO","time":"2023-09-14 14:05:31","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-14 18:07:11","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-14 18:07:11","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-14 18:07:11","caller":"HighPerformanceIMServerAuth/main.go:40","message":"Registered service 'AuthGRPCService' with Consul"}
+{"level":"INFO","time":"2023-09-14 18:07:11","caller":"runtime/proc.go:250","message":"服务启动成功"}

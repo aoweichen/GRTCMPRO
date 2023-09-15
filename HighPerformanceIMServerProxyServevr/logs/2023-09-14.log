@@ -1,0 +1,471 @@
+{"level":"INFO","time":"2023-09-14 22:44:40","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 22:44:40","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /docs"}
+{"level":"INFO","time":"2023-09-14 22:44:40","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/docs"}
+{"level":"ERROR","time":"2023-09-14 22:44:40","caller":"runtime/panic.go:884","message":"Key \"targetURL\" does not exist","stacktrace":"runtime.gopanic\n\t/usr/local/go/src/runtime/panic.go:884\ngithub.com/gin-gonic/gin.(*Context).MustGet\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:273\nHighPerformanceIMServerProxyServevr/HandleFuncs/ProxyHandleFuncs.HandleProxy\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/HandleFuncs/ProxyHandleFuncs/ProxyHandle.go:25\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nHighPerformanceIMServerProxyServevr/Middleware.Recover\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/Middleware/Recover.go:32\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576\nnet/http.serverHandler.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2936\nnet/http.(*conn).serve\n\t/usr/local/go/src/net/http/server.go:1995"}
+{"level":"INFO","time":"2023-09-14 22:48:21","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 22:48:21","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /docs"}
+{"level":"INFO","time":"2023-09-14 22:48:21","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/docs"}
+{"level":"ERROR","time":"2023-09-14 22:48:21","caller":"runtime/panic.go:884","message":"Key \"targetURL\" does not exist","stacktrace":"runtime.gopanic\n\t/usr/local/go/src/runtime/panic.go:884\ngithub.com/gin-gonic/gin.(*Context).MustGet\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:273\nHighPerformanceIMServerProxyServevr/HandleFuncs/ProxyHandleFuncs.HandleProxy\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/HandleFuncs/ProxyHandleFuncs/ProxyHandle.go:25\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nHighPerformanceIMServerProxyServevr/Middleware.Recover\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/Middleware/Recover.go:32\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576\nnet/http.serverHandler.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2936\nnet/http.(*conn).serve\n\t/usr/local/go/src/net/http/server.go:1995"}
+{"level":"INFO","time":"2023-09-14 22:50:33","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 22:50:33","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /docs"}
+{"level":"INFO","time":"2023-09-14 22:50:33","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/docs"}
+{"level":"ERROR","time":"2023-09-14 22:50:33","caller":"runtime/panic.go:884","message":"assignment to entry in nil map","stacktrace":"runtime.gopanic\n\t/usr/local/go/src/runtime/panic.go:884\nruntime.mapassign_faststr\n\t/usr/local/go/src/runtime/map_faststr.go:205\nHighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP.UpdateResponseTime\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP/LoadBalanceHTTP.go:106\nHighPerformanceIMServerProxyServevr/HandleFuncs/ProxyHandleFuncs.HandleProxy\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/HandleFuncs/ProxyHandleFuncs/ProxyHandle.go:56\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nHighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP.GetTargetIMServerURLFromConsulMiddleware\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP/LoadBalanceHTTP.go:49\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nHighPerformanceIMServerProxyServevr/Middleware.Recover\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/Middleware/Recover.go:32\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576\nnet/http.serverHandler.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2936\nnet/http.(*conn).serve\n\t/usr/local/go/src/net/http/server.go:1995"}
+{"level":"INFO","time":"2023-09-14 22:59:13","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 22:59:13","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /docs"}
+{"level":"INFO","time":"2023-09-14 22:59:13","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/docs"}
+{"level":"INFO","time":"2023-09-14 23:00:10","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:00:10","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /docs"}
+{"level":"INFO","time":"2023-09-14 23:00:10","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/docs"}
+{"level":"INFO","time":"2023-09-14 23:00:10","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:01:55","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:01:55","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:01:55","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:01:55","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:02:26","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:02:26","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:02:26","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:02:26","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:02:26","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:03:29","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:03:29","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:03:29","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:03:29","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:03:29","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:03:29","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:19","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:19","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:19","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:19","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:19","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:19","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:33","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:33","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:33","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:33","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:33","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:33","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:34","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:34","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:34","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:34","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:34","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:34","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:35","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:35","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:35","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:35","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:35","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:35","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:36","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:36","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:36","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:36","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:36","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:36","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:37","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:37","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:37","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:37","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:37","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:37","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:38","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:38","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:38","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:38","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:38","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:38","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:39","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:40","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:41","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:42","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:42","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:42","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:42","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:42","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:42","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:42","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:42","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:42","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:42","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:42","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:42","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:42","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:42","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:42","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:42","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:42","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:42","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:43","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:44","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:45","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:45","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:45","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:45","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:45","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:45","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:05:45","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:05:45","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:05:45","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:05:45","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:05:45","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:05:45","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:06:11","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:06:11","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:06:11","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:06:11","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:06:11","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:06:11","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:06:12","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:06:12","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:06:12","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:06:12","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:06:12","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:06:12","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:06:12","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:06:12","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:06:12","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:06:12","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:06:12","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:06:12","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:06:12","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:06:12","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:06:12","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:06:12","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:06:12","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:06:12","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:06:13","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:06:13","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:06:13","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:06:13","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:06:13","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:06:13","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:06:58","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:06:58","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:06:58","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:06:58","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:06:58","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:06:58","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:07:03","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:07:03","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:07:03","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:07:03","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:07:03","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:07:03","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:08:13","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:08:13","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:08:13","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:08:13","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:08:13","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:08:13","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:08:14","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:08:14","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:08:14","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:08:14","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:08:14","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:08:14","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:08:15","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:08:16","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:08:17","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:08:18","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:08:18","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:08:18","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:08:18","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:08:18","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:08:18","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:10:25","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:10:25","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:10:25","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:10:25","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:10:25","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:10:25","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:10:26","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:10:34","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:10:34","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:10:34","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:10:34","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:10:34","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:10:34","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"INFO","time":"2023-09-14 23:12:15","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:12:15","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:12:15","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:12:15","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  http://localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:12:15","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:12:15","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"ERROR","time":"2023-09-14 23:12:15","caller":"runtime/panic.go:884","message":"net/http: abort Handler","stacktrace":"runtime.gopanic\n\t/usr/local/go/src/runtime/panic.go:884\nnet/http/httputil.(*ReverseProxy).ServeHTTP\n\t/usr/local/go/src/net/http/httputil/reverseproxy.go:519\nHighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP.UpdateResponseTime\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP/LoadBalanceHTTP.go:115\nHighPerformanceIMServerProxyServevr/HandleFuncs/ProxyHandleFuncs.HandleProxy\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/HandleFuncs/ProxyHandleFuncs/ProxyHandle.go:58\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nHighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP.GetTargetIMServerURLFromConsulMiddleware\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP/LoadBalanceHTTP.go:50\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nHighPerformanceIMServerProxyServevr/Middleware.Recover\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/Middleware/Recover.go:32\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576\nnet/http.serverHandler.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2936\nnet/http.(*conn).serve\n\t/usr/local/go/src/net/http/server.go:1995"}
+{"level":"INFO","time":"2023-09-14 23:21:17","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:21:17","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:21:17","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:21:17","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  http://localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:21:17","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:21:17","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"ERROR","time":"2023-09-14 23:21:17","caller":"runtime/panic.go:884","message":"net/http: abort Handler","stacktrace":"runtime.gopanic\n\t/usr/local/go/src/runtime/panic.go:884\nnet/http/httputil.(*ReverseProxy).ServeHTTP\n\t/usr/local/go/src/net/http/httputil/reverseproxy.go:519\nHighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP.UpdateResponseTime\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP/LoadBalanceHTTP.go:115\nHighPerformanceIMServerProxyServevr/HandleFuncs/ProxyHandleFuncs.HandleProxy\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/HandleFuncs/ProxyHandleFuncs/ProxyHandle.go:58\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nHighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP.GetTargetIMServerURLFromConsulMiddleware\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP/LoadBalanceHTTP.go:50\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nHighPerformanceIMServerProxyServevr/Middleware.Recover\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/Middleware/Recover.go:32\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576\nnet/http.serverHandler.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2936\nnet/http.(*conn).serve\n\t/usr/local/go/src/net/http/server.go:1995"}
+{"level":"INFO","time":"2023-09-14 23:25:03","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:25:03","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:25:03","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:25:03","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  http://localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:25:03","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:25:03","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"ERROR","time":"2023-09-14 23:25:03","caller":"runtime/panic.go:884","message":"net/http: abort Handler","stacktrace":"runtime.gopanic\n\t/usr/local/go/src/runtime/panic.go:884\nnet/http/httputil.(*ReverseProxy).ServeHTTP\n\t/usr/local/go/src/net/http/httputil/reverseproxy.go:519\nHighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP.UpdateResponseTime\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP/LoadBalanceHTTP.go:115\nHighPerformanceIMServerProxyServevr/HandleFuncs/ProxyHandleFuncs.HandleProxy\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/HandleFuncs/ProxyHandleFuncs/ProxyHandle.go:58\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nHighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP.GetTargetIMServerURLFromConsulMiddleware\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP/LoadBalanceHTTP.go:50\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nHighPerformanceIMServerProxyServevr/Middleware.Recover\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/Middleware/Recover.go:32\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576\nnet/http.serverHandler.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2936\nnet/http.(*conn).serve\n\t/usr/local/go/src/net/http/server.go:1995"}
+{"level":"INFO","time":"2023-09-14 23:27:35","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:27:35","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:27:35","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:27:35","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  http://localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:27:35","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:27:35","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"ERROR","time":"2023-09-14 23:27:35","caller":"runtime/panic.go:884","message":"net/http: abort Handler","stacktrace":"runtime.gopanic\n\t/usr/local/go/src/runtime/panic.go:884\nnet/http/httputil.(*ReverseProxy).ServeHTTP\n\t/usr/local/go/src/net/http/httputil/reverseproxy.go:519\nHighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP.UpdateResponseTime\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP/LoadBalanceHTTP.go:120\nHighPerformanceIMServerProxyServevr/HandleFuncs/ProxyHandleFuncs.HandleProxy\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/HandleFuncs/ProxyHandleFuncs/ProxyHandle.go:58\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nHighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP.GetTargetIMServerURLFromConsulMiddleware\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP/LoadBalanceHTTP.go:52\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nHighPerformanceIMServerProxyServevr/Middleware.Recover\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/Middleware/Recover.go:32\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576\nnet/http.serverHandler.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2936\nnet/http.(*conn).serve\n\t/usr/local/go/src/net/http/server.go:1995"}
+{"level":"INFO","time":"2023-09-14 23:30:53","caller":"gin@v1.9.1/context.go:174","message":"进入处理代理请求的函数：HandleProxy"}
+{"level":"INFO","time":"2023-09-14 23:30:53","caller":"gin@v1.9.1/context.go:174","message":"代理路径参数 proxyPath:  /health"}
+{"level":"INFO","time":"2023-09-14 23:30:53","caller":"gin@v1.9.1/context.go:174","message":"代理请求的URL => proxyURL： /auth/health"}
+{"level":"INFO","time":"2023-09-14 23:30:53","caller":"gin@v1.9.1/context.go:174","message":"targetURL:  http://localhost:9000"}
+{"level":"INFO","time":"2023-09-14 23:30:53","caller":"gin@v1.9.1/context.go:174","message":"proxyPath /health"}
+{"level":"INFO","time":"2023-09-14 23:30:53","caller":"gin@v1.9.1/context.go:174","message":"proxy &{<nil> 0xa0c660 <nil> 0s <nil> <nil> <nil> <nil>}"}
+{"level":"ERROR","time":"2023-09-14 23:30:53","caller":"runtime/panic.go:884","message":"net/http: abort Handler","stacktrace":"runtime.gopanic\n\t/usr/local/go/src/runtime/panic.go:884\nnet/http/httputil.(*ReverseProxy).ServeHTTP\n\t/usr/local/go/src/net/http/httputil/reverseproxy.go:519\nHighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP.UpdateResponseTime\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP/LoadBalanceHTTP.go:121\nHighPerformanceIMServerProxyServevr/HandleFuncs/ProxyHandleFuncs.HandleProxy\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/HandleFuncs/ProxyHandleFuncs/ProxyHandle.go:58\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nHighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP.GetTargetIMServerURLFromConsulMiddleware\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/packages/LoadBalanceHTTP/LoadBalanceHTTP.go:53\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nHighPerformanceIMServerProxyServevr/Middleware.Recover\n\t/root/PROJECT/HighPerformanceIMServerProxyServevr/Middleware/Recover.go:32\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/home/user/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576\nnet/http.serverHandler.ServeHTTP\n\t/usr/local/go/src/net/http/server.go:2936\nnet/http.(*conn).serve\n\t/usr/local/go/src/net/http/server.go:1995"}

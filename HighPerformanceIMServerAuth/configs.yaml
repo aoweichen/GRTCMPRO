@@ -1,0 +1,49 @@
+AuthService:
+  Name: "AuthGRPCService"
+  Host: "127.0.0.1"
+  ListenPort: 50052
+
+MySQL:
+  Host: "127.0.0.1"
+  Port: 3306
+  Database: "grtcm"
+  Username: "root"
+  Password: "@aoweichen"
+  Charset: "utf8mb4"
+
+Redis:
+  Host: '127.0.0.1'
+  Port: 6379
+  Password: ""
+  Database: 1
+  poll: 15 #连接池 默认为4倍cpu数
+  conn: 10 #最小空闲连接数
+
+Logger:
+  Level: 'debug' # 开发时推荐使用 "debug" 或者 "info" ，生产环境下使用 "error"
+  Type: 'daily' #"single" 独立的文件  "daily" 按照日期每日一个
+  LogFilePath: './logs/logs.log'
+  MaxSize: 64 # 保存最大单位 M
+  MaxBackup: 30 #最多保存日志文件数，0 为不限，MaxAge 到了还是会删
+  MaxAge: 7 #最多保存多少天
+  Compress: false #是否压缩
+
+JWT:
+  Secret: 'acb2ca5bc8d7fb2ef8f890f1be15d964' #密钥
+  TokenTimeToLive: 640000 #
+
+Mail:
+  Driver: 'smtp'
+  Host: 'smtp.qq.com'
+  Name: '2557780575@qq.com'
+  Password: 'shbsxikrhbmtdjhh'
+  Port: 465
+  Encryption: 'ssl'
+  FromName: 'Im-Services'
+  EmailCodeSubject: "欢迎使用～GoChat,这是一封邮箱验证码的邮件!"
+  EmailCodeHtmlTemplateFilePath: "./HtmlTemplate/HTML/EmailCodeHtml/EmailCode.html"
+
+
+CONSUL:
+  Host: "127.0.0.1"
+  Port: ":8500"

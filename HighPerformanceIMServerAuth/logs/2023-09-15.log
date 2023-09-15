@@ -1,0 +1,19 @@
+{"level":"INFO","time":"2023-09-15 10:45:05","caller":"HighPerformanceIMServerAuth/main.go:22","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-15 10:45:05","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-15 10:45:05","caller":"HighPerformanceIMServerAuth/main.go:41","message":"Registered service 'AuthGRPCService' with Consul"}
+{"level":"INFO","time":"2023-09-15 10:45:05","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-15 11:31:53","caller":"AUTHGRPC/AUTH_GRPC.pb.go:190","message":"鉴权消息成功"}
+{"level":"INFO","time":"2023-09-15 11:33:31","caller":"AUTHGRPC/AUTH_GRPC.pb.go:190","message":"鉴权消息成功"}
+{"level":"INFO","time":"2023-09-15 11:33:56","caller":"AUTHGRPC/AUTH_GRPC.pb.go:190","message":"鉴权消息成功"}
+{"level":"INFO","time":"2023-09-15 11:34:38","caller":"AUTHGRPC/AUTH_GRPC.pb.go:190","message":"鉴权消息成功"}
+{"level":"INFO","time":"2023-09-15 11:35:16","caller":"AUTHGRPC/AUTH_GRPC.pb.go:190","message":"鉴权消息成功"}
+{"level":"INFO","time":"2023-09-15 11:37:22","caller":"AUTHGRPC/AUTH_GRPC.pb.go:190","message":"鉴权消息成功"}
+{"level":"INFO","time":"2023-09-15 11:37:24","caller":"AUTHGRPC/AUTH_GRPC.pb.go:190","message":"鉴权消息成功"}
+{"level":"INFO","time":"2023-09-15 11:37:25","caller":"AUTHGRPC/AUTH_GRPC.pb.go:190","message":"鉴权消息成功"}
+{"level":"INFO","time":"2023-09-15 11:38:40","caller":"AUTHGRPC/AUTH_GRPC.pb.go:190","message":"鉴权消息成功"}
+{"level":"INFO","time":"2023-09-15 11:44:32","caller":"AUTHGRPC/AUTH_GRPC.pb.go:190","message":"鉴权消息成功"}
+{"level":"INFO","time":"2023-09-15 11:45:56","caller":"AUTHGRPC/AUTH_GRPC.pb.go:190","message":"鉴权消息成功"}
+{"level":"INFO","time":"2023-09-15 11:46:03","caller":"AUTHGRPC/AUTH_GRPC.pb.go:190","message":"鉴权消息成功"}
+{"level":"INFO","time":"2023-09-15 11:46:55","caller":"AUTHGRPC/AUTH_GRPC.pb.go:190","message":"鉴权消息成功"}
+{"level":"INFO","time":"2023-09-15 11:47:22","caller":"AUTHGRPC/AUTH_GRPC.pb.go:190","message":"鉴权消息成功"}
+{"level":"PANIC","time":"2023-09-15 13:45:59","caller":"HighPerformanceIMServerAuth/main.go:22","message":"Mysql 连接异常: dial tcp 127.0.0.1:3306: connect: connection refused","stacktrace":"main.InitConfigs\n\t/root/PROJECT/Server/HighPerformanceIMServerAuth/main.go:22\nmain.main\n\t/root/PROJECT/Server/HighPerformanceIMServerAuth/main.go:27\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:250"}

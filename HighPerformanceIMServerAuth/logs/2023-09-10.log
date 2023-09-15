@@ -1,0 +1,2 @@
+{"level":"INFO","time":"2023-09-10 21:21:00","caller":"HighPerformanceIMServerAuth/main.go:17","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-10 21:21:00","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}

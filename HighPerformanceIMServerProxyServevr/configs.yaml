@@ -1,0 +1,25 @@
+LoadBalanceService:
+  Host: "127.0.0.1"
+  Port: ":8000"
+Redis:
+  Host: "127.0.0.1"
+  Port: ":6379"
+  Password: ""
+  DB: 0
+Logger:
+  level: 'debug' # 开发时推荐使用 "debug" 或者 "info" ，生产环境下使用 "error"
+  type: 'daily' #"single" 独立的文件  "daily" 按照日期每日一个
+  filename: './logs/logs.log'
+  maxSize: 64 # 保存最大单位 M
+  maxBackup: 30 #最多保存日志文件数，0 为不限，MaxAge 到了还是会删
+  maxAge: 7 #最多保存多少天
+  compress: false #是否压缩
+
+Consul:
+  Host: "localhost"
+  Port: ":8500"
+
+AuthService:
+  Name: "AuthGRPCService"
+IMServers:
+  Name: "Im-Services"

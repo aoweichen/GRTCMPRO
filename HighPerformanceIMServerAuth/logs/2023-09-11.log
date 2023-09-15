@@ -1,0 +1,194 @@
+{"level":"INFO","time":"2023-09-11 11:36:45","caller":"HighPerformanceIMServerAuth/main.go:18","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 11:36:45","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 11:37:27","caller":"HighPerformanceIMServerAuth/main.go:18","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 11:37:27","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 11:37:27","caller":"HighPerformanceIMServerAuth/main.go:29","message":"Registered service '%s' with Consul test"}
+{"level":"INFO","time":"2023-09-11 11:51:08","caller":"HighPerformanceIMServerAuth/main.go:18","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 11:51:08","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 11:51:08","caller":"HighPerformanceIMServerAuth/main.go:29","message":"Registered service 'test' with Consul"}
+{"level":"INFO","time":"2023-09-11 11:52:15","caller":"HighPerformanceIMServerAuth/main.go:18","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 11:52:15","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 11:52:15","caller":"HighPerformanceIMServerAuth/main.go:29","message":"Registered service 'test' with Consul"}
+{"level":"INFO","time":"2023-09-11 11:58:24","caller":"viper@v1.16.0/viper.go:482","message":"Config file changed: configs.yaml"}
+{"level":"INFO","time":"2023-09-11 11:58:24","caller":"viper@v1.16.0/viper.go:482","message":"Config file changed: configs.yaml"}
+{"level":"INFO","time":"2023-09-11 11:58:34","caller":"viper@v1.16.0/viper.go:482","message":"Config file changed: configs.yaml"}
+{"level":"INFO","time":"2023-09-11 11:58:34","caller":"viper@v1.16.0/viper.go:482","message":"Config file changed: configs.yaml"}
+{"level":"INFO","time":"2023-09-11 11:58:41","caller":"HighPerformanceIMServerAuth/main.go:18","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 11:58:41","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 11:58:41","caller":"HighPerformanceIMServerAuth/main.go:29","message":"Registered service 'test' with Consul"}
+{"level":"INFO","time":"2023-09-11 12:02:18","caller":"HighPerformanceIMServerAuth/main.go:18","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 12:02:18","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 12:02:18","caller":"HighPerformanceIMServerAuth/main.go:29","message":"Registered service 'test' with Consul"}
+{"level":"INFO","time":"2023-09-11 12:35:06","caller":"HighPerformanceIMServerAuth/main.go:19","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 12:35:06","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 12:35:06","caller":"HighPerformanceIMServerAuth/main.go:30","message":"Registered service 'test' with Consul"}
+{"level":"INFO","time":"2023-09-11 12:37:27","caller":"HighPerformanceIMServerAuth/main.go:20","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 12:37:27","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 12:37:27","caller":"HighPerformanceIMServerAuth/main.go:31","message":"Registered service 'test' with Consul"}
+{"level":"INFO","time":"2023-09-11 12:42:10","caller":"HighPerformanceIMServerAuth/main.go:20","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 12:42:10","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 12:42:10","caller":"HighPerformanceIMServerAuth/main.go:31","message":"Registered service 'test' with Consul"}
+{"level":"INFO","time":"2023-09-11 12:43:29","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 12:43:29","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 12:43:29","caller":"HighPerformanceIMServerAuth/main.go:32","message":"Registered service 'test' with Consul"}
+{"level":"INFO","time":"2023-09-11 12:44:34","caller":"HighPerformanceIMServerAuth/main.go:22","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 12:44:34","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 12:44:34","caller":"HighPerformanceIMServerAuth/main.go:33","message":"Registered service 'test' with Consul"}
+{"level":"INFO","time":"2023-09-11 12:44:34","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 12:46:52","caller":"viper@v1.16.0/viper.go:482","message":"Config file changed: configs.yaml"}
+{"level":"INFO","time":"2023-09-11 12:46:52","caller":"viper@v1.16.0/viper.go:482","message":"Config file changed: configs.yaml"}
+{"level":"INFO","time":"2023-09-11 12:46:54","caller":"HighPerformanceIMServerAuth/main.go:22","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 12:46:54","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 12:46:54","caller":"HighPerformanceIMServerAuth/main.go:33","message":"Registered service 'test' with Consul"}
+{"level":"INFO","time":"2023-09-11 12:46:54","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 12:49:42","caller":"HighPerformanceIMServerAuth/main.go:22","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 12:49:42","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 12:49:42","caller":"HighPerformanceIMServerAuth/main.go:33","message":"Registered service 'test' with Consul"}
+{"level":"INFO","time":"2023-09-11 12:49:42","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 12:50:31","caller":"HighPerformanceIMServerAuth/main.go:22","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 12:50:31","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 12:50:31","caller":"HighPerformanceIMServerAuth/main.go:33","message":"Registered service 'test' with Consul"}
+{"level":"INFO","time":"2023-09-11 12:50:31","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 12:52:21","caller":"HighPerformanceIMServerAuth/main.go:22","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 12:52:21","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"ERROR","time":"2023-09-11 12:52:21","caller":"HighPerformanceIMServerAuth/main.go:33","message":"Unexpected response code: 400 (Invalid service address)","stacktrace":"main.main\n\tH:/PROJECT/goSTU/HighPerformanceIMServerAuth/main.go:33\nruntime.main\n\tH:/APPS/GO/src/runtime/proc.go:250"}
+{"level":"INFO","time":"2023-09-11 12:52:21","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 12:52:42","caller":"HighPerformanceIMServerAuth/main.go:22","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 12:52:42","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"ERROR","time":"2023-09-11 12:52:42","caller":"HighPerformanceIMServerAuth/main.go:33","message":"Unexpected response code: 400 (Invalid service address)","stacktrace":"main.main\n\tH:/PROJECT/goSTU/HighPerformanceIMServerAuth/main.go:33\nruntime.main\n\tH:/APPS/GO/src/runtime/proc.go:250"}
+{"level":"INFO","time":"2023-09-11 12:52:42","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 12:54:35","caller":"viper@v1.16.0/viper.go:482","message":"Config file changed: configs.yaml"}
+{"level":"INFO","time":"2023-09-11 12:54:35","caller":"viper@v1.16.0/viper.go:482","message":"Config file changed: configs.yaml"}
+{"level":"INFO","time":"2023-09-11 12:54:40","caller":"HighPerformanceIMServerAuth/main.go:22","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 12:54:40","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"ERROR","time":"2023-09-11 12:54:40","caller":"HighPerformanceIMServerAuth/main.go:33","message":"Unexpected response code: 400 (Invalid service address)","stacktrace":"main.main\n\tH:/PROJECT/goSTU/HighPerformanceIMServerAuth/main.go:33\nruntime.main\n\tH:/APPS/GO/src/runtime/proc.go:250"}
+{"level":"INFO","time":"2023-09-11 12:54:40","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 12:56:40","caller":"HighPerformanceIMServerAuth/main.go:22","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 12:56:40","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"ERROR","time":"2023-09-11 12:56:40","caller":"HighPerformanceIMServerAuth/main.go:33","message":"Unexpected response code: 400 (Invalid service address)","stacktrace":"main.main\n\tH:/PROJECT/goSTU/HighPerformanceIMServerAuth/main.go:33\nruntime.main\n\tH:/APPS/GO/src/runtime/proc.go:250"}
+{"level":"INFO","time":"2023-09-11 12:56:40","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 12:57:24","caller":"viper@v1.16.0/viper.go:482","message":"Config file changed: configs.yaml"}
+{"level":"INFO","time":"2023-09-11 12:57:24","caller":"viper@v1.16.0/viper.go:482","message":"Config file changed: configs.yaml"}
+{"level":"INFO","time":"2023-09-11 12:57:31","caller":"viper@v1.16.0/viper.go:482","message":"Config file changed: configs.yaml"}
+{"level":"INFO","time":"2023-09-11 12:57:31","caller":"viper@v1.16.0/viper.go:482","message":"Config file changed: configs.yaml"}
+{"level":"INFO","time":"2023-09-11 12:58:12","caller":"HighPerformanceIMServerAuth/main.go:22","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 12:58:12","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 12:58:12","caller":"HighPerformanceIMServerAuth/main.go:33","message":"Registered service 'test' with Consul"}
+{"level":"INFO","time":"2023-09-11 12:58:12","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 13:05:12","caller":"HighPerformanceIMServerAuth/main.go:22","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:05:12","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:05:12","caller":"HighPerformanceIMServerAuth/main.go:42","message":"Registered service 'test' with Consul"}
+{"level":"INFO","time":"2023-09-11 13:05:12","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 13:07:25","caller":"HighPerformanceIMServerAuth/main.go:20","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:07:25","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:07:25","caller":"HighPerformanceIMServerAuth/main.go:43","message":"Registered service 'test' with Consul"}
+{"level":"INFO","time":"2023-09-11 13:08:11","caller":"HighPerformanceIMServerAuth/main.go:20","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:08:11","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:09:27","caller":"HighPerformanceIMServerAuth/main.go:20","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:09:27","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:09:51","caller":"HighPerformanceIMServerAuth/main.go:20","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:09:51","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:13:04","caller":"viper@v1.16.0/viper.go:482","message":"Config file changed: configs.yaml"}
+{"level":"INFO","time":"2023-09-11 13:13:04","caller":"viper@v1.16.0/viper.go:482","message":"Config file changed: configs.yaml"}
+{"level":"INFO","time":"2023-09-11 13:13:49","caller":"HighPerformanceIMServerAuth/main.go:20","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:13:49","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:13:52","caller":"HighPerformanceIMServerAuth/main.go:20","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:13:52","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:14:18","caller":"HighPerformanceIMServerAuth/main.go:20","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:14:18","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:15:26","caller":"HighPerformanceIMServerAuth/main.go:20","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:15:26","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:16:45","caller":"HighPerformanceIMServerAuth/main.go:20","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:16:45","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:17:03","caller":"HighPerformanceIMServerAuth/main.go:20","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:17:03","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:18:53","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:18:53","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:19:13","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:19:13","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:20:02","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:20:02","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:20:47","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:20:47","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:21:25","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:21:25","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:23:42","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:23:42","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:24:31","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:24:31","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:24:42","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:24:42","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:24:54","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:24:54","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:25:44","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:25:44","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:26:01","caller":"HighPerformanceIMServerAuth/main.go:39","message":"Registered service '555' with Consul"}
+{"level":"INFO","time":"2023-09-11 13:26:14","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 13:30:23","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:30:23","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:30:23","caller":"HighPerformanceIMServerAuth/main.go:39","message":"Registered service '555' with Consul"}
+{"level":"INFO","time":"2023-09-11 13:30:23","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 13:31:40","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:31:40","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:31:40","caller":"HighPerformanceIMServerAuth/main.go:39","message":"Registered service '555' with Consul"}
+{"level":"INFO","time":"2023-09-11 13:31:40","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 13:32:39","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:32:39","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:32:39","caller":"HighPerformanceIMServerAuth/main.go:39","message":"Registered service '555' with Consul"}
+{"level":"INFO","time":"2023-09-11 13:32:39","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 13:35:30","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:35:30","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:35:30","caller":"HighPerformanceIMServerAuth/main.go:39","message":"Registered service '555' with Consul"}
+{"level":"INFO","time":"2023-09-11 13:35:30","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 13:37:57","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:37:57","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:37:57","caller":"HighPerformanceIMServerAuth/main.go:39","message":"Registered service '555' with Consul"}
+{"level":"INFO","time":"2023-09-11 13:37:57","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 13:40:42","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:40:42","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:40:42","caller":"HighPerformanceIMServerAuth/main.go:39","message":"Registered service '555' with Consul"}
+{"level":"INFO","time":"2023-09-11 13:40:42","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 13:41:22","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:41:22","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:41:22","caller":"HighPerformanceIMServerAuth/main.go:39","message":"Registered service '555' with Consul"}
+{"level":"INFO","time":"2023-09-11 13:41:22","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 13:42:08","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:42:08","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:42:08","caller":"HighPerformanceIMServerAuth/main.go:39","message":"Registered service '555' with Consul"}
+{"level":"INFO","time":"2023-09-11 13:42:08","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 13:43:57","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:43:57","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:43:57","caller":"HighPerformanceIMServerAuth/main.go:39","message":"Registered service '555' with Consul"}
+{"level":"INFO","time":"2023-09-11 13:43:57","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 13:50:00","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:50:00","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:50:00","caller":"HighPerformanceIMServerAuth/main.go:39","message":"Registered service '555' with Consul"}
+{"level":"INFO","time":"2023-09-11 13:50:00","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 13:54:49","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:54:49","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:54:49","caller":"HighPerformanceIMServerAuth/main.go:39","message":"Registered service '555' with Consul"}
+{"level":"INFO","time":"2023-09-11 13:54:49","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 13:55:13","caller":"viper@v1.16.0/viper.go:482","message":"Config file changed: configs.yaml"}
+{"level":"INFO","time":"2023-09-11 13:55:13","caller":"viper@v1.16.0/viper.go:482","message":"Config file changed: configs.yaml"}
+{"level":"INFO","time":"2023-09-11 13:55:32","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 13:55:32","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 13:55:32","caller":"HighPerformanceIMServerAuth/main.go:39","message":"Registered service '555' with Consul"}
+{"level":"INFO","time":"2023-09-11 13:55:32","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 14:03:07","caller":"viper@v1.16.0/viper.go:482","message":"Config file changed: configs.yaml"}
+{"level":"INFO","time":"2023-09-11 14:03:07","caller":"viper@v1.16.0/viper.go:482","message":"Config file changed: configs.yaml"}
+{"level":"INFO","time":"2023-09-11 14:03:11","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 14:03:11","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"ERROR","time":"2023-09-11 14:03:13","caller":"HighPerformanceIMServerAuth/main.go:39","message":"Put \"http://127.0.0.1:8502/v1/agent/service/register\": dial tcp 127.0.0.1:8502: connectex: No connection could be made because the target machine actively refused it.","stacktrace":"main.main\n\tH:/PROJECT/goSTU/HighPerformanceIMServerAuth/main.go:39\nruntime.main\n\tH:/APPS/GO/src/runtime/proc.go:250"}
+{"level":"ERROR","time":"2023-09-11 14:03:13","caller":"runtime/proc.go:250","message":"Put \"http://127.0.0.1:8502/v1/agent/service/register\": dial tcp 127.0.0.1:8502: connectex: No connection could be made because the target machine actively refused it.","stacktrace":"runtime.main\n\tH:/APPS/GO/src/runtime/proc.go:250"}
+{"level":"INFO","time":"2023-09-11 14:05:17","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 14:05:17","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"ERROR","time":"2023-09-11 14:05:19","caller":"HighPerformanceIMServerAuth/main.go:39","message":"Put \"http://127.0.0.1:8502/v1/agent/service/register\": dial tcp 127.0.0.1:8502: connectex: No connection could be made because the target machine actively refused it.","stacktrace":"main.main\n\tH:/PROJECT/goSTU/HighPerformanceIMServerAuth/main.go:39\nruntime.main\n\tH:/APPS/GO/src/runtime/proc.go:250"}
+{"level":"ERROR","time":"2023-09-11 14:05:19","caller":"runtime/proc.go:250","message":"Put \"http://127.0.0.1:8502/v1/agent/service/register\": dial tcp 127.0.0.1:8502: connectex: No connection could be made because the target machine actively refused it.","stacktrace":"runtime.main\n\tH:/APPS/GO/src/runtime/proc.go:250"}
+{"level":"INFO","time":"2023-09-11 14:05:32","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 14:05:32","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 14:05:32","caller":"HighPerformanceIMServerAuth/main.go:39","message":"Registered service '555' with Consul"}
+{"level":"INFO","time":"2023-09-11 14:05:32","caller":"runtime/proc.go:250","message":"服务启动成功"}
+{"level":"INFO","time":"2023-09-11 14:10:39","caller":"HighPerformanceIMServerAuth/main.go:21","message":"mysql 连接成功"}
+{"level":"INFO","time":"2023-09-11 14:10:39","caller":"MySQL/MySQL.go:35","message":"迁移表 &IMUsers.ImUsers{ID:0, Name:\"\", Email:\"\", Password:\"\", CreatedAt:\"\", UpdatedAt:\"\", Avatar:\"\", BoundOauth:0, OauthType:0, Status:0, Bio:\"\", Sex:0, ClientType:0, Age:0, LastLoginTime:\"\", Uid:\"\", UserJson:\"\", UserType:0} 成功"}
+{"level":"INFO","time":"2023-09-11 14:10:39","caller":"HighPerformanceIMServerAuth/main.go:39","message":"Registered service '555' with Consul"}
+{"level":"INFO","time":"2023-09-11 14:10:39","caller":"runtime/proc.go:250","message":"服务启动成功"}

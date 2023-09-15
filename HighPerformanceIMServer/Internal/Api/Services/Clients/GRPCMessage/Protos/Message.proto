@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+option go_package = "../GRPC/MessageGRPC/;MessageGRPC";
+
+service ImMessage {
+  // SendMessageHandler是一个RPC方法，用于发送消息
+  // 参数SendMessageRequest是一个消息类型，表示包含发送消息的请求
+  // 返回SendMessageResponse消息类型，表示包含发送消息的响应
+  rpc SendMessageHandler(SendMessageRequest) returns (SendMessageResponse) {} // 提供调用发送消息方法
+}
+
+message SendMessageRequest {
+  // msgId是一个int64类型的字段，表示消息的ID
+  int64 msgId = 1;
+  // msgClientId是一个int64类型的字段，表示消息的客户端ID
+  int64 msgClientId = 2;
+  // msgCode是一个int64类型的字段，表示消息的代码
+  int64 msgCode = 3;
+  // formId是一个int64类型的字段，表示消息的发送者ID
+  int64 formId = 4;
+  // toId是一个int64类型的字段，表示消息的接收者ID
+  int64 toId = 5;
+  // msgType是一个int64类型的字段，表示消息的类型
+  int64 msgType = 6;
+  // channelType是一个int64类型的字段，表示消息的通道类型
+  int64 channelType = 7;
+  // Message是一个字符串类型的字段，表示消息的内容
+  string Message = 8;
+  // SendTime是一个int64类型的字段，表示消息的发送时间
+  int64 SendTime = 9;
+  // data是一个字符串类型的字段，表示消息的附加数据
+  string data = 10;
+}
+
+message SendMessageResponse {
+  // code是一个int64类型的字段，表示发送消息的响应代码
+  int64 code = 1;
+  // message是一个字符串类型的字段，表示发送消息的响应消息
+  string message = 2;
+  // data是一个字符串类型的字段，表示发送消息的响应数据
+  string data = 3;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Im-Services邮件验证码</title>
+</head>
+<style>
+    .mail {
+        margin: 0 auto;
+        border-radius: 45px;
+        height: 400px;
+        padding: 10px;
+        background-color: #CC9933;
+        background-image: url("EmailCodeBackgroundImage.png");
+    }
+
+    .code {
+        color: #f6512b;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 2px;
+    }
+</style>
+<body>
+<div class="mail">
+    <h3>您好 ~ GoChat应用账号!</h3>
+    <p>下面是您的验证码:</p>
+    <p class="code">{{ .Code }}</p>
+    <p>请注意查收!谢谢</p>
+</div>
+<!--<h3>如果可以请给项目点个star～<a target="_blank" href="https://github.com/IM-Tools/Im-Services">项目地址</a> </h3>-->
+</body>
+</html>

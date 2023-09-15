@@ -1,0 +1,66 @@
+syntax = "proto3";
+
+package Auth;
+
+service IMAuthService{
+    // 登录账号功能
+    rpc Login(LoginRequest) returns (LoginResponse){}
+    // 注册账号功能
+    rpc Register(RegisterRequest) returns (RegisterResponse){}
+    // 发送验证码功能
+    rpc SendEmailCode(EmailCodeRequest) returns (EmailCodeResponse){}
+    // 鉴权功能
+    rpc IMAuthenticateHandler(AuthRequest) returns (AuthResponse){}
+}
+
+message LoginRequest{
+    string Email = 1;
+    string Password = 2;
+}
+
+message LoginResponse{
+    int64 ID = 1;
+    string UID = 2;
+    string Name = 3;
+    string Email = 4;
+    string Avatar = 5;
+    string Token = 6;
+    int64 ExpireTime = 7;
+    int64 TokenTimeToLive = 8;
+}
+
+
+message RegisterRequest{
+    string Email = 1;
+    string Name = 2;
+    int64 EmailType = 3;
+    string Password = 4;
+    string PasswordRepeat = 5;
+    string EmailCode = 6;
+}
+
+message RegisterResponse{
+    bool IsRegisterSuccess = 1;
+}
+
+
+message EmailCodeRequest{
+    string Email = 1;
+    int64 EmailType = 2;
+}
+
+message EmailCodeResponse{
+    bool IsSendEmailCodeSuccess = 1;
+}
+
+
+message AuthRequest{
+    string Token = 1;
+}
+
+message AuthResponse{
+    bool IsAuthSuccess = 1;
+    int64 ID = 2;
+    string UID = 3;
+    string Name = 4;
+}
