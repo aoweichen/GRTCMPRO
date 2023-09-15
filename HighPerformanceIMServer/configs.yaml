@@ -39,7 +39,7 @@ Consul:
   Port: ":8500"
 
 QiNiu:
-  accessKey: 'hx8_OcNEZOJ_AUx4gi74mX_kweJ1XNjKz8dRR7z9'
-  secretKey: 'af3aCLEdby1FRyF460aY8H-pfdvDqiwrpqyGy1NK'
+  accessKey: ''
+  secretKey: ''
   bucket: 'grtc'
-  domain: 's08krditv.hn-bkt.clouddn.com'
+  domain: ''
